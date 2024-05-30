@@ -8,14 +8,7 @@
 #### 📢if we bring any changes or update any of the assignment requirements we will mention them here. Ensure that you check this file twice a day during the assignment. We will mention the variant. 
 ```
 0: No updates yet
-1: Requirement 0010(ten) => Updates:
-    ● Main Requirements 1c. and 
-    ● Manage My post Page.
-2: Requirement 0002(two) => Updates:
-    ● Update a word mistake in the website theme.
-    ● You have to implement search in all search page. Not in navbar
-3: Requirement 0007(Seven) => Updates:
-    ● Read The main requirement 10 again. Some clarifications are provided.
+
 ```
 ## What To Submit?
 - Your assignment ID/Variant (The name of the pdf requirement file. Watch video for more)
