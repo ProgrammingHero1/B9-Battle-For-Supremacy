@@ -46,7 +46,7 @@ await client.db("admin").command({ ping: 1 });
 }
 ```
 
-3. Add Your production domains to your cors configuration. Don't use the URL we have provided inside origin. Replace them with your own. Watch video 61-9 to 61-11 for solving server deployment issues.
+3. Add Your production domains to your cors configuration. Don't use the URL we have provided inside origin. Replace them with your own. 
 
 ```js
 //Must remove "/" from your production URL
@@ -56,13 +56,27 @@ app.use(
       "http://localhost:5173",
       "https://cardoctor-bd.web.app",
       "https://cardoctor-bd.firebaseapp.com",
-    ],
-    credentials: true,
+    ]
   })
 );
 ```
 
-4. Let's create a cookie options for both production and local server
+4. Deploy to Vercel
+
+```bash
+vercel
+vercel --prod
+```
+- After completed the deployment . click on inspect link and copy the production domain
+- setup your environment variables in vercel
+- check your public API
+
+
+<img src="code.jpg"/>
+
+# Server Deployment Done
+## If you are using a cookie, follow this extra process. We recommend using local storage to store tokens on the client side to avoid deployment issues.
+1. Let's create cookie options for both the production and local server
 
 ```js
 const cookieOptions = {
@@ -70,11 +84,11 @@ const cookieOptions = {
   secure: process.env.NODE_ENV === "production",
   sameSite: process.env.NODE_ENV === "production" ? "none" : "strict",
 };
-//localhost:5000 and localhost:5173 are treated as same site.  so sameSite value must be strict in development server.  in production sameSite will be none
-// in development server secure will false .  in production secure will be true
+//localhost:5000 and localhost:5173 are treated as same site.  so sameSite value must be strict in the development server.  in production, sameSite will be none
+// in development server secure will false.  in production secure will be true
 ```
 
-## now we can use this object for cookie option to modify cookies
+## now we can use this object for the cookie option to modify cookies
 
 ```js
 //creating Token
@@ -95,18 +109,3 @@ app.post("/logout", async (req, res) => {
     .send({ success: true });
 });
 ```
-
-5. Deploy to Vercel
-
-```bash
-vercel
-vercel --prod
-```
-- After completed the deployment . click on inspect link and copy the production domain
-- setup your environment variables in vercel
-- check your public API
-
-
-<img src="code.jpg"/>
-
-# Server Deployment Done
