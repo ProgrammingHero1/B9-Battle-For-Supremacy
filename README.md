@@ -8,7 +8,11 @@
 #### 📢if we bring any changes or update any of the assignment requirements we will mention them here. Ensure that you check this file twice a day during the assignment. We will mention the variant. 
 ```
 0: No updates yet
+--------------------------------------
+*01-06-2024 11:40am updates:-🕦*
 1: updated category 0022: removed the query features.
+2: updated some typing and grammatical errors in category 0019. please redownload
+--------------------------------------
 
 ```
 ## What To Submit?
