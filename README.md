@@ -8,6 +8,7 @@
 #### 📢if we bring any changes or update any of the assignment requirements we will mention them here. Ensure that you check this file twice a day during the assignment. We will mention the variant. 
 ```
 0: No updates yet
+1: updated category 0022: removed the query features.
 
 ```
 ## What To Submit?
