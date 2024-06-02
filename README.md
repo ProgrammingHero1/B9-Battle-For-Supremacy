@@ -13,7 +13,9 @@
 1: updated category 0022: removed the query features.
 2: updated some typing and grammatical errors in category 0019. please redownload
 --------------------------------------
-
+* 02-06-2024 12:30pm🕧 updates:-*
+3: Changed submission count to details:category0019
+--------------------------------------
 ```
 ## What To Submit?
 - Your assignment ID/Variant (The name of the pdf requirement file. Watch video for more)
