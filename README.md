@@ -16,6 +16,14 @@
 * 02-06-2024 12:30pm🕧 updates:-*
 3: Changed submission count to details:category0019
 --------------------------------------
+*04-06-2024 10:15am🕥 updates:-*
+4: Category0010:
+Dashboard admin route => applied trainer:
+👉 There will be a details button that will redirect to a detailed page showing specific information about the applied trainer. This page will display comprehensive details about the applicant. There will be two additional buttons on this page: one for confirming the application and another for rejecting it.
+-------------------------------------------------------
+5: Category0023:
+Tutor Dashboard: Removed e. View all notes feature
+-------------------------------------------------------
 ```
 ## What To Submit?
 - Your assignment ID/Variant (The name of the pdf requirement file. Watch video for more)
