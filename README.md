@@ -24,6 +24,17 @@ Dashboard admin route => applied trainer:
 5: Category0023:
 Tutor Dashboard: Removed e. View all notes feature
 -------------------------------------------------------
+*04-06-2024 12:50pm🕧 updates:-*
+6: category0007:-
+- Custom Request List is removed.
+- Removed Member Type from Add an Employee Page
+- Make the dashboard responsive
+
+7: category0010
+Dashboard member Page:
+- remove recommended classes page
+- Add Booked Trainer page.
+-------------------------------------------
 ```
 ## What To Submit?
 - Your assignment ID/Variant (The name of the pdf requirement file. Watch video for more)
